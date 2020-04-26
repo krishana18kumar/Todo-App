@@ -15,7 +15,7 @@ body {
 .container {
     background: #fff;
     width: 380px;
-    height: 530px;
+    height: 570px;
     margin: 70px auto;
     border-radius: 15px;
 }
@@ -46,8 +46,6 @@ h2 {
 }
 
 .fa-plus-circle {
-    /* width: 30px;
-    height: 30px; */
     font-size: 30px;
     position: absolute;
     right: 20px;
@@ -65,7 +63,7 @@ input[type=text] {
 }
 
 .content {
-    max-height: 350px;
+    max-height: 360px;
     overflow: auto;
     border-radius: 0 0 15px 15px;
 }
@@ -81,7 +79,7 @@ ul {
 
 li {
     text-transform: capitalize;
-    height: 40px;
+    height: 45px;
     font-size: 22px;
     padding-left: 10px;
     margin: 0 auto;
