@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo Web App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+
+    <link rel="stylesheet" href="./app.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Todo List</h1>
+            <h2 id="date"></h2>
+            <span>
+                <i class="fas add fa-plus-circle"> </i>
+            </span>
+        </div>
+        <div class="add-to-do">
+            <input type="text" id="input" placeholder="Add a ToDo" />
+        </div>
+        <div class="content">
+            <ul id="list">
+                <li class="item">
+                    <i class="far fa-circle" job="complete"></i>
+                    <p class="text" job="none">first todo</p>
+                    <i class="fas fa-trash" job="delete"></i>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="./app.js"></script>
+
+</html>
